@@ -1,0 +1,43 @@
+.banner {
+  position: relative;
+  min-height: 100vh;
+  padding: 200px 0 100px;
+}
+
+.banner__image-ibg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.banner__container {
+  position: relative;
+  z-index: 2;
+}
+
+.banner__content {
+  text-align: center;
+  color: var(--secondary);
+}
+
+.banner__title {
+  color: #007AFF;
+  font-size: 96px;
+  @media (max-width: $tablet) {
+    font-size: 44px;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+}
+
+.banner__descr {
+  font-size: 40px;
+  @media (max-width: $tablet) {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/_head.htm',{
+"title":"Glob Energy"
+})
+<body>
+<div class="wrapper">
+    @@include('html/_header-eng.htm',{})
+    <main class="page">
+        <section class="banner">
+            <div class="banner__image-ibg">
+                <img srcset="@img/main-img/banner@2x.png 2x" src="@img/main-img/banner.png" alt="">
+            </div>
+            <div class="banner__container">
+                <div class="banner__content">
+                    <h1 class="banner__title">
+                        GlobEnergy OÜ
+                    </h1>
+                    <div class="banner__descr">
+                        "From waste to value: together we change the world!"
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="bg">
+            <div class="bg__image-ibg">
+                <img srcset="@img/main-img/bg@2x.png 2x" src="@img/main-img/bg.png" alt="">
+            </div>
+            <section class="about">
+                <div class="about__container">
+                    <h2 class="about__title">
+                        About us
+                    </h2>
+                    <div class="about__descr">
+                        <span>“GlobEnergy OÜ”</span> - an innovative company specializing in the purchase, sale and
+                        processing of food waste and used vegetable oil.
+                    </div>
+                    <div class="about__row">
+                        <div class="about__text">
+                            <p>We support the principles of responsibility, innovation and sustainable development.
+                                Mutual benefit, trust and professionalism are the main values ​​of our company.</p>
+                            <p>We work with the highest standards and provide the best solutions for our customers,
+                                helping them implement green practices in their processes.</p>
+                            <p>Our work helps reduce the burden on the environment and contributes to the development of
+                                a green economy. We believe that every small step can lead to big positive changes, and
+                                that is why we strive to implement the concept of "waste is a valuable resource" in our
+                                daily activities.</p>
+                        </div>
+                        <div class="about__image">
+                            <img srcset="@img/main-img/banner2@2x.png 2x" src="@img/main-img/banner2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="info">
+                <div class="info__hand">
+                    <img src="@img/main-img/hand.png" alt="">
+                </div>
+                <div class="info__container">
+
+                    <ul class="info__list">
+                        <li>Partnership approach</li>
+                        <li>Environmental responsibility</li>
+                        <li>Reduction of CO2 emissions</li>
+                        <li>Stimulation of the green economy</li>
+                        <li>Quality control</li>
+                        <li>Certification and standards</li>
+                        <li>An effective logistics solution</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <section class="tr">
+            <div class="tr__image-ibg">
+                <img srcset="@img/main-img/tr@2x.png 2x" src="@img/main-img/tr.png" alt="">
+            </div>
+            <div class="tr__container">
+                <h2 class="tr__title">
+                    Transport
+                </h2>
+                <div class="tr__text top">
+                    GlobEnergy OÜ cooperates with many logistics companies to ensure efficient and reliable
+                    transportation of its goods and services. This strategic cooperation allows us to provide optimal
+                    routes, reduce delivery times and increase customer satisfaction by providing high quality logistics
+                    services.
+                </div>
+                <div class="tr__text bottom">
+                    GlobEnergy OÜ can quickly respond to changes in market conditions and provide a flexible approach to
+                    the logistics requirements of its customers.
+                </div>
+            </div>
+        </section>
+        <section class="con">
+            <div class="con__container">
+                <h2 class="con__title">
+                    Contacts
+                </h2>
+                <div class="con__row">
+                    <div class="con__info">
+                        <div class="con__info-item">
+                            <img src="@img/svg/pin.svg">
+                            <p>Harju maakond, Tallinn, Kesklinna linnaosa, Tuukri tn 19-315, 1012</p>
+                        </div>
+                        <div class="con__info-item">
+                            <img src="@img/svg/phone.svg">
+                            <p>Tel. <a href="tel:+380681449925">+ 380 68 144 9925</a></p>
+                        </div>
+                        <div class="con__info-item">
+                            <img src="@img/svg/mail.svg">
+                            <p>E-mail. <a href="mailto:officeglobenergy@gmail.com">officeglobenergy@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="con__map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d253.5665503601499!2d24.7743822!3d59.4408729!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4692935ca08dd9fd%3A0x6c917896973b5dad!2zVHV1a3JpIDE5LTMxNSwgMTAxNTIgVGFsbGlubiwg0K3RgdGC0L7QvdC40Y8!5e0!3m2!1sru!2sua!4v1692038742288!5m2!1sru!2sua"
+                                style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="us">
+            <div class="us__container">
+                <div class="us__title">
+                    Contact us
+                </div>
+                <form data-popup-message="#popup_eng"
+                      action="files/sendmail.php" data-ajax method="POST"
+                      class="form">
+                    <div class="form__items">
+                        <div class="form__item">
+                            <input name="name" data-required type="text" placeholder="Name" class="input"
+                                   data-error="Field required or uncorrect">
+                        </div>
+                        <div class="form__item">
+                            <input name="email" data-required="email" type="text" placeholder="E-mail" class="input"
+                                   data-error="Field required or uncorrect">
+                        </div>
+                        <div class="form__item">
+                            <input name="telefon" data-required type="text" placeholder="Phone" class="input"
+                                   data-error="Field required or uncorrect">
+                        </div>
+                    </div>
+                    <div class="form__textarea">
+                        <textarea name="message" data-required data-error="Field required or uncorrect" class="input"
+                                  placeholder="Your message"></textarea>
+                    </div>
+                    <div class="form__row">
+                        <button class="form__button button">
+                            <svg width="23" height="17" viewBox="0 0 23 17" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.2077 2.125L1.83707 7.79167L7.34827 9.04167L20.2077 2.125ZM20.2077 2.125L11.9409 15.5833L10.32 11.3333L20.2077 2.125Z"
+                                      stroke="white" stroke-width="2" stroke-linejoin="round"/>
+                            </svg>
+                            Send
+                        </button>
+                        <div class="checkbox">
+                            <input data-required data-error="Field required or uncorrect" id="c_1"
+                                   data-error="Ошибка"
+                                   class="checkbox__input" type="checkbox"
+                                   value="1"
+                                   name="form[]">
+                            <label for="c_1" class="checkbox__label"><span class="checkbox__text">I agree to the privacy policy and the use of personal data.</span></label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    @@include('html/_footer-eng.htm',{})
+</div>
+@@include('html/_js.htm',{})
+@@include('html/_popup.htm',{})
+</body>
+</html>
